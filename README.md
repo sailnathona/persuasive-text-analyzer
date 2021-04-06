@@ -27,8 +27,10 @@ To run the server, clone the repository and make sure you have npm and node inst
 ```
 $ npm install
 $ npm start
+open http://localhost:3000/
 ```
-To run the backend server:
+
+To run the backend server, make sure to have python and Flask installed.
 
 ```
 $ git clone "https://www.github.com/sailnathona/persuasive-text-analyzer" 
@@ -36,6 +38,7 @@ $ cd persuasive-text-analyzer
 $ [activate your virtualenv]
 $ pip install -r requirements.txt
 $ python app.py
+open http://localhost:5000/
 ```
 
 
