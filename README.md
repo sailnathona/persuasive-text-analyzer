@@ -25,7 +25,7 @@ $ npm start
 open http://localhost:3000/
 ```
 
-To run the backend server, make sure to have python and Flask installed.
+To run the backend server, make sure to have python installed.
 
 ```
 $ git clone "https://www.github.com/sailnathona/persuasive-text-analyzer" 
