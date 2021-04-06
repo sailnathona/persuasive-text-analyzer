@@ -17,7 +17,7 @@ The backend API was built using Flask and python, http requests using axios libr
 The application uses the Text Analytics API from Azure Cognitive Services specifically sentiment analysis, and key phrases extraction.
 	
 ## Setup
-To run the server, clone the repository and make sure you have npm and node installed. 
+To run the app, make sure you have npm and node installed. 
 
 ```
 $ npm install
