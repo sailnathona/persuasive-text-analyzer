@@ -17,7 +17,13 @@ The backend API was built using Flask and Python, HTTP requests using axios libr
 The application uses the Text Analytics API from Azure Cognitive Services specifically sentiment analysis, and key phrases extraction.
 	
 ## Setup
-To run the app, make sure you have npm and node installed. 
+First clone the project and cd into directory:
+```
+$ git clone "https://www.github.com/sailnathona/persuasive-text-analyzer" 
+$ cd persuasive-text-analyzer
+```
+
+To run the app in your local development server, you need to have npm and node installed. 
 
 ```
 $ npm install
@@ -25,15 +31,13 @@ $ npm start
 open http://localhost:3000/
 ```
 
-To run the backend server, make sure to have python installed.
+To run the backend server, you need to have python installed.
 
 ```
-$ git clone "https://www.github.com/sailnathona/persuasive-text-analyzer" 
-$ cd persuasive-text-analyzer
 $ [activate your virtualenv]
 $ pip install -r requirements.txt
 $ python app.py
 open http://localhost:5000/
 ```
-
+Finally, create a free account on Azure to acquire an API Key, or use an existing one if already obtained. Open 'persuade_algos.py' and assign this value as string to KEY constant.
 
