@@ -3,12 +3,7 @@
 <img width="1440" alt="Screen Shot 2021-04-06 at 3 25 02 PM" src="https://user-images.githubusercontent.com/13419675/113769121-e4e6a300-9720-11eb-8c2f-18777baf9bcb.png">
 <img width="1440" alt="Screen Shot 2021-04-06 at 3 25 17 PM" src="https://user-images.githubusercontent.com/13419675/113769128-e748fd00-9720-11eb-8d7c-fe3e3a18e5a5.png">
 
-## Table of contents
-* [General info](#general-info)
-* [Technologies](#technologies)
-* [Setup](#setup)
 
-## General info
 The Persuasive Text Analyzer is a web application that takes in a piece of argumentative text, such as from a panel discussion or a debate, and uses text analytics to determine how persuasive it is based on Aristotle’s three modes of persuasion: Pathos (emotional connection), Logos (logical reasoning), and Ethos (credibility of the person making persuasive arguments).
 
 The inspiration for this project comes from a love of panel debates and the variety and richness in speakers available online to listen to who speak publicly about their ideas about the future, their worldview or ideologies. I stumbled upon an article about Aristotle’s Art of Rhetoric and realized that some of the best speakers I had listened were using a combination of his three modes of persuasion and so this is my attempt to measure something of this.
