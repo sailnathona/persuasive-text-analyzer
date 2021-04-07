@@ -39,5 +39,7 @@ $ pip install -r requirements.txt
 $ python app.py
 open http://localhost:5000/
 ```
-Finally, create a free account on Azure to acquire an API Key, or use an existing one if already obtained. Open 'persuade_algos.py' and assign this value as string to KEY constant.
+Create a free account on Azure to acquire an API Key, or use an existing one if you have it to hand. Then, open 'persuade_algos.py' and assign this value as string to constant KEY. A sample key is provided - note, this key is not in use and you will need to add your own one.
+
+Finally, once on the landing page, input and submit a sample text of length 300 - 5000 chars. For your convenience, you may use the above included 'thiel_transcript.txt' which was the example used in the Azure AI Hackathon demo. 
 
