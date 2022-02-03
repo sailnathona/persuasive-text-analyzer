@@ -20,12 +20,14 @@ function NewForm() {
     console.log("button clicked");
 
     const config = {
-      headers: { "Access-Control-Allow-Origin": "*" },
+      headers: {
+        "Access-Control-Allow-Origin": "*",
+      },
     };
 
     axios
       .post(
-        "http://localhost:5000/process",
+        "/process",
         {
           text: text,
         },
@@ -54,7 +56,10 @@ function NewForm() {
     <div className="main-div">
       <div className="form-header">
         <p>Persuasive Text Analyzer</p>
-        <a className="gitbox" href="https://github.com/sailnathona/persuasive-text-analyzer">
+        <a
+          className="gitbox"
+          href="https://github.com/sailnathona/persuasive-text-analyzer"
+        >
           <FaGithub />
           GitHub
         </a>
@@ -62,7 +67,9 @@ function NewForm() {
       <div className="container-box">
         <div className="box">
           <form onSubmit={handleSubmit} method="post">
-            <label className="mainlabel"><strong>Input text:</strong></label>
+            <label className="mainlabel">
+              <strong>Input text:</strong>
+            </label>
             <textarea
               name="text"
               value={text}
@@ -74,11 +81,15 @@ function NewForm() {
             <br />
             <input
               id="sb"
-              disabled={text.length <= 300 | text.length >= 5000 }
+              disabled={(text.length <= 300) | (text.length >= 5000)}
               style={{
                 opacity: `${text.length <= 300 ? "0.7" : "1"}`,
-                cursor: `${text.length <= 300 | text.length >= 5000 ? "not-allowed" : "pointer"}`,
-                }}
+                cursor: `${
+                  (text.length <= 300) | (text.length >= 5000)
+                    ? "not-allowed"
+                    : "pointer"
+                }`,
+              }}
               type="submit"
               name="Submit"
               value="SUBMIT"
